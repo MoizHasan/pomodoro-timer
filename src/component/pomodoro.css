@@ -1,0 +1,51 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#timer {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #006666;
+  border-radius: 10px;
+}
+
+#break-toggle, #session-toggle {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#session-length, #break-length {
+  margin: 0;
+}
+
+.option {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  width: 100px;
+  border-radius: 15px;
+}
+
+#timer-label {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#time-left {
+    background-color: #c2c2a3;
+  border: solid 4px #7f7f7f;
+  font-size: 40px;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#start-stop, #reset {
+  font-size: 25px;
+  margin: 5px;
+}
+.controls > * {
+  display: inline;
+}
